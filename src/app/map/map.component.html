@@ -1,0 +1,11 @@
+<div class="overlay" onClick="style.pointerEvents='none'"></div>
+<div style="height: 500px">
+    <x-map #xmap [Options]="_options" [Box]="_box">
+        <x-map-marker [Latitude]="-35.024494" [Longitude]="138.570877" [Title]="'Medclick'"
+            [IconUrl]="'https://cdn0.iconfinder.com/data/icons/industrial-icons/164/2-128.png'" [IconInfo]="_iconInfo">
+            <x-info-box [DisableAutoPan]="true" [Title]="'Address'"
+                [Description]="'level 2,1284 South Road, Tonsley SA 5042'">
+            </x-info-box>
+        </x-map-marker>
+    </x-map>
+</div>

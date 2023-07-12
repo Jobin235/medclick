@@ -1,0 +1,467 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+  scroll-behavior: smooth;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+  .navli{
+    padding-right: 30px !important;
+    margin-top: 5px;
+    font-family: "Segoe UI Semibold";
+    font-size: 19px;
+  }
+
+  .logoanim{
+    width: 100px;
+    transform: scale(2.2);
+  }
+
+  .tag{
+    top:0.8rem;
+    right:-2.1rem;
+  }
+
+  .hiring-line{
+    top:20px;
+    right:-140px;
+  }
+  
+  .font-white{
+    color:white !important;
+  }
+
+  .font-black{
+    color:black;
+  }
+
+  .font-grey{
+    color:#8a8a8a;
+  }
+
+  /* Centered text */
+  .ctxt {
+    color: white;
+    margin-bottom: 3rem;
+    font-family: "Segoe";
+    font-size: 32px;
+    text-align: center;
+  } 
+
+  .btngreen{
+    background-color: #67e0b5;
+  }
+
+  .btnblue{
+    background-color: #3e9ffe;
+  }
+
+  .btnred{
+    background-color: #dc9c8f;
+  }
+
+  .btn-outline-blue{
+    border-color: #3e9ffe;
+    background-color: white;
+  }
+
+  .btnstyle{
+    color:white;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: "Segoe UI Semibold";
+    font-size: 20px;
+  }
+
+  .btn:hover{
+    color: white;
+  }
+
+  .btnstyle2{
+    font-weight: bold;
+    font-size: small;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .ms-50{
+    margin-right: 50px;
+  }
+
+  .plane {
+    bottom: -8.4px;
+    left: -9.5%;
+    width: 100%;
+  }
+
+  .anim{
+    transform: scale(1);    
+  }
+
+  .chat{
+    transform: scale(2.5);    
+    padding-top: 30px;
+  }
+  .locker{
+    transform: scale(6);    
+    padding-top: 20px;
+  }
+  .security{
+    transform: scale(6);   
+    padding-top: 15px; 
+  }
+  .drone{
+    transform: scale(2.5);   
+    padding-top: 15px;
+  }
+
+  .bee { 
+    top: -15px;
+    left: -2.5%;
+    width:100%;
+  }
+
+  .hoverline{
+    position: relative;
+  }
+
+  .hovertext{
+    position: absolute;
+    top: 4px;
+  left: 109px;
+  }
+  
+  .m-all{
+    margin: 20px;
+    padding-right: 30px;
+  }
+
+  .demoimg {
+    height: 50%;
+  } 
+  .greybg{
+      background-color: #ececec;
+      font-weight: bold;
+      font-size: xx-large;
+      justify-content:center;
+  }
+
+  .social:hover{
+    color: #3e9ffe;
+  }
+  
+  .bhover{
+    font-family: "SF Cartoonist Hand";
+    font-size: 20px;
+    width: max-content;
+    margin-top: 80px;
+  }
+
+  .phead{
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    font-family: "Linotte-SemiBold";
+    text-align: center;
+  }
+
+  .ptrail{
+    font-style: italic;
+    margin-bottom: 50px;
+    font-family: "Nunito";
+    font-style: italic;
+    line-height: 0;
+    text-align: center;
+  }
+
+  .blog-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .subhead{
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    font-family: "Linotte-SemiBold";
+    text-align: center;
+  }
+
+  .subtrail{
+    font-style: italic;
+    margin-bottom: 50px;
+    font-family: "Nunito";
+    font-style: italic;
+    line-height: 0;
+    text-align: end;
+  }
+
+  .pl1{
+    padding-left: 4rem;
+  }
+
+  .nav-grad {
+    background-image: linear-gradient(to bottom right, #7993ff, #6aa1f6);
+  }
+
+  .mock-grad {
+    background-image: linear-gradient(to bottom right, #7894fe, #5fb4f8);
+  }
+
+  .grad {
+    background-image: linear-gradient(to bottom right, #7993ff, #5fb4f8);
+  }
+
+  .overlay {
+    background:transparent; 
+    position:relative; 
+    width:100%;
+    height:500px; /* your iframe height */
+    top:500px;  /* your iframe height */
+    margin-top:-500px;  /* your iframe height */
+ }
+
+.subscribe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  text-align: center;
+  background-color: white;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.subfont{
+  font-size: 35px;
+}
+
+.inputdiv{
+  padding-bottom: 40px;
+  width: 50vw;
+}
+
+.subheight{
+  height: 60px
+}
+
+.subplane{
+  width: 40px;
+}
+
+.footericons{
+  width:30px;
+}
+
+ /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+ .flip-card {
+  background-color: transparent;
+  width: 306px;
+  height: 306px;
+  border: hidden;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-front {
+  transform: rotateY(-180deg);
+}
+
+.flip-card:hover .flip-card-back {
+  transform: rotateY(0deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.8s;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+} 
+
+.ng-medium-feed-title{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .logoanim{
+    padding-left: 0;
+  }
+
+  .nav-grad {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .phead{
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+  }
+
+  .ptrail{
+    font-style: italic;
+    margin-bottom: 50px;
+  }
+  
+  .btnstyle{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .bhover{
+    display: none;
+  }
+
+  .tag{
+    top:435px;
+    right:190px;
+  }
+
+  .hiring-line{
+    display: none;
+  }
+
+  .btnstyle2{
+    padding: 10px;
+  }
+
+  .hoverdiv{
+    display: none;
+  }
+
+  .blog-margin{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .subscribe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .subhead{
+    font-size: 20px;
+    padding-top: 4px;
+    margin-bottom: 0px !important;
+    font-family: "Linotte-SemiBold";
+    text-align: center;
+  }
+
+  .subtrail{
+    font-size: 10px;
+    font-family: "Nunito";
+    font-style: italic;
+    line-height: 0;
+    text-align: end;
+  }
+
+  .inputdiv{
+    padding-bottom: 0px;
+    width: 50vw;
+  }
+
+  .subheight{
+    height: 20px
+  }
+
+  .subfont{
+    font-size: 5px;
+  }
+
+  .subdiv{
+    height:300px
+  }
+
+}
+
+/* Chrome 28+ */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @supports (not (-ms-accelerator:true))
+    and (not (-moz-appearance:none)) {
+
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+
+        .tag{
+          top:430px;
+        }
+        
+      }
+} }
+
+/* custom font styles */
+
+@font-face {font-family: "Linotte-SemiBold"; src: url("//db.onlinewebfonts.com/t/2adbeea25e4c3a9e9ba6031bbfb45343.eot"); src: url("//db.onlinewebfonts.com/t/2adbeea25e4c3a9e9ba6031bbfb45343.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2adbeea25e4c3a9e9ba6031bbfb45343.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2adbeea25e4c3a9e9ba6031bbfb45343.woff") format("woff"), url("//db.onlinewebfonts.com/t/2adbeea25e4c3a9e9ba6031bbfb45343.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2adbeea25e4c3a9e9ba6031bbfb45343.svg#Linotte-SemiBold") format("svg"); } 
+@font-face {font-family: "Segoe UI Semibold"; src: url("//db.onlinewebfonts.com/t/d4d6e1a6527a21185217393c427a52cb.eot"); src: url("//db.onlinewebfonts.com/t/d4d6e1a6527a21185217393c427a52cb.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d4d6e1a6527a21185217393c427a52cb.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d4d6e1a6527a21185217393c427a52cb.woff") format("woff"), url("//db.onlinewebfonts.com/t/d4d6e1a6527a21185217393c427a52cb.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d4d6e1a6527a21185217393c427a52cb.svg#Segoe UI Semibold") format("svg"); } 
+@font-face {font-family: "Nunito"; src: url("//db.onlinewebfonts.com/t/13c84759e88a1d95d1c6849a108197f9.eot"); src: url("//db.onlinewebfonts.com/t/13c84759e88a1d95d1c6849a108197f9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/13c84759e88a1d95d1c6849a108197f9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/13c84759e88a1d95d1c6849a108197f9.woff") format("woff"), url("//db.onlinewebfonts.com/t/13c84759e88a1d95d1c6849a108197f9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/13c84759e88a1d95d1c6849a108197f9.svg#Nunito") format("svg"); } 
+@font-face {font-family: "Segoe"; src: url("//db.onlinewebfonts.com/t/4735dd9ca25670c44600021e7428b8d3.eot"); src: url("//db.onlinewebfonts.com/t/4735dd9ca25670c44600021e7428b8d3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4735dd9ca25670c44600021e7428b8d3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4735dd9ca25670c44600021e7428b8d3.woff") format("woff"), url("//db.onlinewebfonts.com/t/4735dd9ca25670c44600021e7428b8d3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4735dd9ca25670c44600021e7428b8d3.svg#Segoe") format("svg"); } 
+@font-face {font-family: "Segoe UI"; src: url("//db.onlinewebfonts.com/t/60570a3f64a1fece44ebf71b43617029.eot"); src: url("//db.onlinewebfonts.com/t/60570a3f64a1fece44ebf71b43617029.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/60570a3f64a1fece44ebf71b43617029.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/60570a3f64a1fece44ebf71b43617029.woff") format("woff"), url("//db.onlinewebfonts.com/t/60570a3f64a1fece44ebf71b43617029.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/60570a3f64a1fece44ebf71b43617029.svg#Segoe UI") format("svg"); } 
+@font-face {font-family: "Klavika"; src: url("//db.onlinewebfonts.com/t/3bf3d0ea7c93d0af167a55ec998f1109.eot"); src: url("//db.onlinewebfonts.com/t/3bf3d0ea7c93d0af167a55ec998f1109.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3bf3d0ea7c93d0af167a55ec998f1109.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3bf3d0ea7c93d0af167a55ec998f1109.woff") format("woff"), url("//db.onlinewebfonts.com/t/3bf3d0ea7c93d0af167a55ec998f1109.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3bf3d0ea7c93d0af167a55ec998f1109.svg#Klavika") format("svg"); }
+@font-face {font-family: "Comic Sans MS"; src: url("//db.onlinewebfonts.com/t/0df1bd3a15dd6ed0abfcf0d5b2e15a38.eot"); src: url("//db.onlinewebfonts.com/t/0df1bd3a15dd6ed0abfcf0d5b2e15a38.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0df1bd3a15dd6ed0abfcf0d5b2e15a38.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0df1bd3a15dd6ed0abfcf0d5b2e15a38.woff") format("woff"), url("//db.onlinewebfonts.com/t/0df1bd3a15dd6ed0abfcf0d5b2e15a38.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0df1bd3a15dd6ed0abfcf0d5b2e15a38.svg#Comic Sans MS") format("svg"); } 
+@font-face {font-family: "PicoBlack"; src: url("//db.onlinewebfonts.com/t/2d366cb04ccb5171fa290b035ea0ccea.eot"); src: url("//db.onlinewebfonts.com/t/2d366cb04ccb5171fa290b035ea0ccea.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2d366cb04ccb5171fa290b035ea0ccea.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2d366cb04ccb5171fa290b035ea0ccea.woff") format("woff"), url("//db.onlinewebfonts.com/t/2d366cb04ccb5171fa290b035ea0ccea.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2d366cb04ccb5171fa290b035ea0ccea.svg#PicoBlack") format("svg"); }
+@font-face {font-family: "Myriad Pro"; src: url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.eot"); src: url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.woff") format("woff"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.svg#Myriad Pro") format("svg"); } 
+@font-face {font-family: "Nunito Semi"; src: url("//db.onlinewebfonts.com/t/17f0948ab1d318f4828e30f50b397b0f.eot"); src: url("//db.onlinewebfonts.com/t/17f0948ab1d318f4828e30f50b397b0f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/17f0948ab1d318f4828e30f50b397b0f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/17f0948ab1d318f4828e30f50b397b0f.woff") format("woff"), url("//db.onlinewebfonts.com/t/17f0948ab1d318f4828e30f50b397b0f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/17f0948ab1d318f4828e30f50b397b0f.svg#Nunito") format("svg"); } 
+@font-face {font-family: "Nunito Regular"; src: url("//db.onlinewebfonts.com/t/fa4111e39a6ab2895f7e5a9497e97b2b.eot"); src: url("//db.onlinewebfonts.com/t/fa4111e39a6ab2895f7e5a9497e97b2b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/fa4111e39a6ab2895f7e5a9497e97b2b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/fa4111e39a6ab2895f7e5a9497e97b2b.woff") format("woff"), url("//db.onlinewebfonts.com/t/fa4111e39a6ab2895f7e5a9497e97b2b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/fa4111e39a6ab2895f7e5a9497e97b2b.svg#Nunito") format("svg"); } 
+@font-face {font-family: "SF Cartoonist Hand"; src: url("//db.onlinewebfonts.com/t/8b58d9fa0b21ae7bf23eefe4e74c6bb3.eot"); src: url("//db.onlinewebfonts.com/t/8b58d9fa0b21ae7bf23eefe4e74c6bb3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8b58d9fa0b21ae7bf23eefe4e74c6bb3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8b58d9fa0b21ae7bf23eefe4e74c6bb3.woff") format("woff"), url("//db.onlinewebfonts.com/t/8b58d9fa0b21ae7bf23eefe4e74c6bb3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8b58d9fa0b21ae7bf23eefe4e74c6bb3.svg#SF Cartoonist Hand") format("svg"); } 
+@font-face {font-family: "Lato"; src: url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.eot"); src: url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.woff") format("woff"), url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.svg#Lato") format("svg"); } 
+@font-face {font-family: "Noe Display Bold"; src: url("//db.onlinewebfonts.com/t/30a71dcf9a1c39558ca4e97c92a4b2fa.eot"); src: url("//db.onlinewebfonts.com/t/30a71dcf9a1c39558ca4e97c92a4b2fa.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/30a71dcf9a1c39558ca4e97c92a4b2fa.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/30a71dcf9a1c39558ca4e97c92a4b2fa.woff") format("woff"), url("//db.onlinewebfonts.com/t/30a71dcf9a1c39558ca4e97c92a4b2fa.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/30a71dcf9a1c39558ca4e97c92a4b2fa.svg#Noe Display Bold") format("svg"); } 
+
+.fluid-wrapper {
+
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.fluid-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
